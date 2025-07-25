@@ -3,7 +3,6 @@ Windows Network Monitor
 A lightweight Python script to monitor network connections on Windows without requiring Npcap or WinPcap.
 
 Features
-
 - 🖥️ Monitors active network connections in real-time
 - 🔍 Resolves remote IP addresses to hostnames
 - 📝 Logs all connections to daily log files
@@ -11,7 +10,6 @@ Features
 - 🚫 No Npcap/WinPcap dependency required
 
 Requirements
-
 - Python 3.x
 - psutil library
 
@@ -23,7 +21,6 @@ The script will:
 Press `Ctrl+C` to stop monitoring.
 
 Log Format
-
 Each connection is logged with:
 - Timestamp
 - Local address and port
@@ -33,8 +30,6 @@ Each connection is logged with:
 - Connection status
 
 Example Output
-
-```
 ============================================================
 🕒 Timestamp        : 2023-01-01 12:34:56
 📍 Local Address    : 192.168.1.100:49672
@@ -42,7 +37,6 @@ Example Output
 🔍 Remote Hostname  : lax17s42-in-f14.1e100.net
 ⚙️  Process PID      : 1234
 🔁 Connection Status: ESTABLISHED
-```
 
 Notes
 - The script runs continuously until manually stopped
